@@ -16,7 +16,6 @@ import {
   GithubOutlined,
   LinkOutlined,
   EyeOutlined,
-  CodeOutlined,
   RocketOutlined,
   BookOutlined,
   ApiOutlined,

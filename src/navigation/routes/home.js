@@ -2,7 +2,7 @@ import { lazy } from "react";
 
 const homeRoutes = [
   {
-    path: "/home",
+    path: "/",
     component: lazy(() => import("@views/Home")),
     protected: true,
   },

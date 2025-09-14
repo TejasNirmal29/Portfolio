@@ -27,7 +27,7 @@ const AppHeader: React.FC = () => {
   const location = useLocation();
   const screens = useBreakpoint();
 
-  const currentPath = location.pathname || "/home";
+  const currentPath = location.pathname || "/";
 
   const handleNavigation = (path: string) => {
     navigate(path);
@@ -64,7 +64,7 @@ const AppHeader: React.FC = () => {
       <Header style={headerStyle}>
         {/* Logo */}
         <Link
-          to="/home"
+          to="/"
           style={{
             display: "flex",
             alignItems: "center",

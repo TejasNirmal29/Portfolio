@@ -8,6 +8,7 @@ export default defineConfig({
   define: { global: "window" },
   build: {
     sourcemap: true,
+    chunkSizeWarningLimit: 600,
   },
   resolve: {
     alias: {

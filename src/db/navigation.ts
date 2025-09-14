@@ -21,9 +21,9 @@ import {
 export const navItems: NavItem[] = [
   {
     id: 1,
-    key: "/home",
+    key: "/",
     label: "Home",
-    path: "/home",
+    path: "/",
     icon: React.createElement(HomeOutlined),
   },
   {

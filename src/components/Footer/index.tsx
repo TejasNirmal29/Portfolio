@@ -136,7 +136,7 @@ const AppFooter: React.FC = () => {
         </div>
       </div>
 
-      <style jsx>{`
+      <style>{`
         .footer-link:hover {
           color: #1890ff !important;
           background: rgba(24, 144, 255, 0.1) !important;
